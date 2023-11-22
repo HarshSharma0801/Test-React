@@ -27,7 +27,7 @@ return(
 
    
     <>
-    <div className="flex justify-center items-center p-20 bg-back h-screen w-screen">
+    <div className="flex justify-center items-center p-20 bg-black h-screen w-screen">
         {data && data.map(info=>{
         return <CardItem First={info.name.first} Last={info.name.last} Pic={info.picture.large} Gender={info.gender} phone={info.phone}/>
        })}
